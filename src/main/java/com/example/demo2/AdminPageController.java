@@ -9,5 +9,4 @@ public class AdminPageController {
 	public String adminPage() {
 		return "adminPage";
 	}
-
 }
