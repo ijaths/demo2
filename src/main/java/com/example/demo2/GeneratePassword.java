@@ -6,7 +6,7 @@ public class GeneratePassword {
 
 	public static void main(String[] args) {
 		// ハッシュ化したいパスワードを入力
-		String rawPassword = "aaaa";
+		String rawPassword = "user";
 
 		// パスワードをハッシュ化
 		String password = getEncodePassword(rawPassword);
